@@ -4,7 +4,7 @@
 ####################################
 #
 title: Shyaman Jayasundara
-description: "Sito personale e portfolio di Cristian Castellari: Tecnico e Manager IT, nel tempo libero mi dedico alla famiglia e gioco con PS4 e Switch"
+description: ""
 keywords: cristian, castellari, blog, jekyll, gh-pages, kace, github, wordpress
 baseurl:  '' 
 url: shyaman.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -61,15 +61,15 @@ author:
 
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-wordpress
-    - name: fa-linux
+    - name: icon-nodejs
+    - name: icon-git
   skill_icon2:
-    - name: fa-apple
-    - name: fa-chrome
+    - name: icon-database-alt2
+    - name: icon-raspberrypi
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: cristiancastellari-it
+  # name: cristiancastellari-it
 
 # analytics
 ## google analytics
@@ -84,7 +84,7 @@ go:
 donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on  # index page carousel switch
+index_carousel: off  # index page carousel switch
 blog_carousel: off  # blog page carousel switch
 
 plugins:

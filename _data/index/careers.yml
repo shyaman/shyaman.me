@@ -1,43 +1,43 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Novomatic Italia Services
+    detail: University of Peradeniya
     i18n: novomatic_b
   desc:
-    detail: Coordinatore Office Automation Systems
+    detail: Computer Engineering undergraduate student
     i18n: novomatic_b_desc
   date:
-    detail: Gennaio 2017 - Presente
+    detail: September 2015 - Present
     i18n: novomatic_b_date
   job:
-    detail: Coordinatore Office Automation Systems
+    detail: Undergraduate student
     i18n: novomatic_b_job
-  icon: fa-plus-square
+  icon: fa-graduation-cap
 
 - name:
-    detail: Novomatic Italia Services
+    detail: St. Anne's college, Kurunegala
     i18n: novomatic
   desc:
-    detail: Referente Office Automation
+    detail: Physical stream A/L
     i18n: novomatic_desc
   date:
-    detail: Gennaio 2015 - Dicembre 2016
+    detail: January 2006 - December 2014
     i18n: novomatic_date
   job:
-    detail: Referente Office Automation
+    detail: Student
     i18n: novomatic_job
-  icon: fa-plus-square
+  icon: fa-leanpub
 
 - name:
-    detail: SO.GE.M.A. SpA
+    detail: Jayanthi central college, Nikaweratiya
     i18n: sogema
   desc:
-    detail: Ho progettato e gestito l'intera infrastruttura del Gruppo, realizzando un progetto di consolidamento e centralizzazione che ha ridotto i costi e permesso a tutti gli utenti (oltre 100) di lavorare in un ambiente funzionale ed uniforme.
+    detail: Primary
     i18n: sogema_desc
   date:
-    detail: Gennaio 2006 - Dicembre 2014
+    detail: January 2001 - December 2005
     i18n: sogema_date
   job:
-    detail: Responsabile IT
+    detail: Primary education
     i18n: sogema_job
-  icon: fa-server
+  icon: fa-child

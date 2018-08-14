@@ -65,7 +65,6 @@ permalink: /
                 </div>
               </div>
               <div class="s-title sb-title-center-align has-fresh-line">
-                <img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
                 <div class="s-component s-text">
                   <h1 class="s-component-content s-font-title">
                     <p style="text-align: center; font-size: 150%;">
@@ -74,22 +73,6 @@ permalink: /
                   </h1>
                 </div>
               </div>
-
-
-
-              <ul class="list-inline social-icon" style="display: table; margin: 0 auto;">
-                {% if site.author.github_username %}
-                <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
-                {% endif %} {% if site.author.linkedin_id %}
-                <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
-                {% endif %} {% if site.author.facebook_username %}
-                <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
-                {% endif %}{% if site.author.linkedin_id %}
-                <li><a href="https://www.flickr.com/photos/{{ site.author.flickr_id }}" target="blank"><i class="fa fa-flickr"></i></a></li>
-                {% endif %} {% if site.author.email %}
-                <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
-                {% endif %}
-              </ul>
             </div>
 
           </div>
