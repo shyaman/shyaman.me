@@ -16,7 +16,7 @@ $(document).ready(function() {
 });
 
 var cbpAnimatedHeader = (function() {
-    var changeHeaderOn = 200, scrollDebounce = 250;
+    var changeHeaderOn = 300, scrollDebounce = 350;
 
     function scrollPage() {
       $('.navbar-default').toggleClass('navbar-scroll', scrollY() >= changeHeaderOn);
