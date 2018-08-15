@@ -82,8 +82,7 @@ permalink: /
   </div>
 </div>
 
-{% for section in site.data.landing %} {% assign loopindex
-= forloop.index | modulo: 2 %}
+{% for section in site.data.landing %} {% assign loopindex = forloop.index | modulo: 2 %}
 <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
 
   {% if section.id != 'blog' %} {% include sections/{{section.tpl}} %} {% endif %}
@@ -131,6 +130,11 @@ permalink: /
     color: #fff
   }
 
+  @media only screen and (max-width: 727px) {
+    .s-bg-image {
+      background-position: 50% !important;
+    }
+  }
 
   .s-title-group {
     text-align: center

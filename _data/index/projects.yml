@@ -8,22 +8,15 @@
 #   img: /static/assets/img/landing/kacesmatools.png
 #   desc: Idee, script e suggerimenti utili per Quest Kace Systems Management Appliace (precedentmente noto come K1000) 
 
-# - name: K1000 Database Queries
-#   i18n: k1000-database-queries
-#   gh_user: skyflash
-#   repo: K1000-Database-Queries
-#   img: /static/assets/img/landing/development.png
-#   desc:  Una collezione di queries MySQL per Il KACE 1000 (Quest Kace Systems Management Appliance)
-
-- name: This website on Github
-  i18n: shyaman-github
+- name: PeraRide
+  i18n: k1000-database-queries
   gh_user: shyaman
-  repo: shyaman.github.io
-  img: /static/assets/img/landing/me.jpg
-  desc: Personal website repository
-
-# - name: La Traduzione di Morrowind
-#   i18n: morrowind-translation
-#   url: https://www.skyflash.it/traduzione-italiano-morrowind-tribunal-bloodmoon/3581/
-#   img: /static/assets/img/blog/29-morrowind.webp
-#   desc: La traduzione in Italiano di Morrowind, Tribunal e Bloodmoon - A cura dell'ITP
+  repo: PeraRide-AdminApp
+  img: /static/assets/img/landing/development.png
+  desc:  Automated bike sharing system for university students and staff
+  
+- name: PeraBot
+  i18n: morrowind-translation
+  url: https://shyaman.github.io/perabot-botpress/
+  img: static/assets/img/landing/perabot.png
+  desc: An intelligent Chatbot who is going to help university students and staff regarding academic related stuff 

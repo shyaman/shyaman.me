@@ -4,7 +4,7 @@
     detail: University of Peradeniya
     i18n: novomatic_b
   desc:
-    detail: Computer Engineering undergraduate student
+    detail: BSc Engineering in Computer Engineering
     i18n: novomatic_b_desc
   date:
     detail: September 2015 - Present
@@ -18,13 +18,13 @@
     detail: St. Anne's college, Kurunegala
     i18n: novomatic
   desc:
-    detail: Physical stream A/L
+    detail: GCE A/L O/L
     i18n: novomatic_desc
   date:
     detail: January 2006 - December 2014
     i18n: novomatic_date
   job:
-    detail: Student
+    detail: Secondary Education
     i18n: novomatic_job
   icon: fa-leanpub
 
@@ -32,12 +32,12 @@
     detail: Jayanthi central college, Nikaweratiya
     i18n: sogema
   desc:
-    detail: Primary
+    detail: 
     i18n: sogema_desc
   date:
     detail: January 2001 - December 2005
     i18n: sogema_date
   job:
-    detail: Primary education
+    detail: Primary Education
     i18n: sogema_job
   icon: fa-child
