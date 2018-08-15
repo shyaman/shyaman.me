@@ -12,7 +12,7 @@
   i18n: k1000-database-queries
   gh_user: shyaman
   repo: PeraRide-AdminApp
-  img: /static/assets/img/landing/development.png
+  img: /static/assets/img/landing/peraride.jpeg
   desc:  Automated bike sharing system for university students and staff
   
 - name: PeraBot

@@ -2,27 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://localhost:4000/blog/kace/blocco-applicativo-k1000/</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/blog/wordpress/bloccare-hotlinking-immagini/</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/blog/games/la-traduzione-di-morrowind-e-bloodmoon/</loc>
-    </url>
-
-    <url>
         <loc>http://localhost:4000/blog/kace/k1000-report-pc-with-smartcard-reader/</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/blog/html/test-code-snippets/</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/blog/linux/idenficare-processi-zombie-linux/</loc>
     </url>
 
 
