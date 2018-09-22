@@ -9,8 +9,8 @@ permalink: /
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-          aria-controls="navbar">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -83,7 +83,8 @@ permalink: /
 </div>
 
 {% for section in site.data.landing %} {% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
+<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}"
+  style="margin-top: 0;">
 
   {% if section.id != 'blog' %} {% include sections/{{section.tpl}} %} {% endif %}
 
@@ -134,6 +135,14 @@ permalink: /
     .s-bg-image {
       background-position: 45% !important;
     }
+
+    .s-title h1 {
+      font-size: 8vw !important;
+    }
+
+    .s-title .container {
+      transform: translateY(20%);
+    }
   }
 
   .s-title-group {
@@ -170,6 +179,12 @@ permalink: /
     zoom: 1
   }
 
+  .s-title-group .has-fresh-line .s-component-content:after,
+  .s-title-group .has-fresh-line .s-component-content:before {
+    background: #fff;
+  }
+
+
   .s-title-group .has-fresh-line .s-component-content:after.middle,
   .s-title-group .has-fresh-line .s-component-content:before.middle {
     vertical-align: middle
@@ -195,14 +210,17 @@ permalink: /
     display: none !important
   }
 
+  @media only screen and (max-width: 727px) {
+    .s-title-group .has-fresh-line .s-component-content:before {
+      display: none;
+    }
 
-  h1.s-component-content::before,
-  h1.s-component-content::after {
-    display: inline-block;
-    content: "";
-    border-top: .2rem solid white;
-    width: 4rem;
-    margin: 0 1rem;
-    transform: translateY(-0.5rem);
+    .s-title-group .has-fresh-line .s-component-content:after {
+      display: block;
+      left: 0;
+      margin: 15px auto 5px;
+      position: relative;
+      top: 0;
+    }
   }
 </style>

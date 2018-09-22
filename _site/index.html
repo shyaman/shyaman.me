@@ -51,8 +51,8 @@
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-          aria-controls="navbar">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -141,7 +141,8 @@
 </div>
 
  
-<section id="about-me" class="features  " style="margin-top: 0;">
+<section id="about-me" class="features  "
+  style="margin-top: 0;">
 
    <div class="container" id="i18_about_me">
     <div class="row m-b-lg">
@@ -252,7 +253,8 @@
 
 </section>
  
-<section id="education" class="features  gray-section  timeline" style="margin-top: 0;">
+<section id="education" class="features  gray-section  timeline"
+  style="margin-top: 0;">
 
    <div class="container" id="i18_career">
     <div class="row">
@@ -312,7 +314,8 @@
 
 </section>
  
-<section id="skills" class="features  team" style="margin-top: 0;">
+<section id="skills" class="features  team"
+  style="margin-top: 0;">
 
    <div class="container">
     <div class="row">
@@ -361,7 +364,8 @@
 
 </section>
  
-<section id="projects" class="features  gray-section  project" style="margin-top: 0;">
+<section id="projects" class="features  gray-section  project"
+  style="margin-top: 0;">
 
    <div class="container" id="i18_projects">
     <div class="row m-b-lg">
@@ -469,6 +473,14 @@
     .s-bg-image {
       background-position: 45% !important;
     }
+
+    .s-title h1 {
+      font-size: 8vw !important;
+    }
+
+    .s-title .container {
+      transform: translateY(20%);
+    }
   }
 
   .s-title-group {
@@ -505,6 +517,12 @@
     zoom: 1
   }
 
+  .s-title-group .has-fresh-line .s-component-content:after,
+  .s-title-group .has-fresh-line .s-component-content:before {
+    background: #fff;
+  }
+
+
   .s-title-group .has-fresh-line .s-component-content:after.middle,
   .s-title-group .has-fresh-line .s-component-content:before.middle {
     vertical-align: middle
@@ -530,15 +548,18 @@
     display: none !important
   }
 
+  @media only screen and (max-width: 727px) {
+    .s-title-group .has-fresh-line .s-component-content:before {
+      display: none;
+    }
 
-  h1.s-component-content::before,
-  h1.s-component-content::after {
-    display: inline-block;
-    content: "";
-    border-top: .2rem solid white;
-    width: 4rem;
-    margin: 0 1rem;
-    transform: translateY(-0.5rem);
+    .s-title-group .has-fresh-line .s-component-content:after {
+      display: block;
+      left: 0;
+      margin: 15px auto 5px;
+      position: relative;
+      top: 0;
+    }
   }
 </style>
 
