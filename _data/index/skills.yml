@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Java, C, Matlab, Javascript, Assembly, NodeJS, PHP, React, Git, GitHub, HTML/CSS, MySQL
-percentage: 85, 90, 65, 80, 85, 80, 85, 80, 75, 75, 70, 80
+aspects: Java, C, Matlab, Javascript, Assembly, NodeJS, PHP, React, Git, GitHub, HTML/CSS, MySQL, Python
+percentage: 85, 90, 65, 80, 85, 80, 85, 80, 75, 75, 70, 80, 80
