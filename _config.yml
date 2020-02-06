@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Shyaman Jayasundara"
 title_separator          : "-"
 name                     : &name "Shyaman Jayasundara"
-description              : &description "personal description"
+description              : &description "Computer engineering undergraduate at University of Peradeniya"
 url                      : https://shyaman.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shyaman/shyaman.github.io"
@@ -75,7 +75,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-126058564-1"
 
 
 # Site Author
@@ -88,25 +88,25 @@ author:
   pubmed           : 
   googlescholar    : 
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
+  flickr           : "shyaman321"
   facebook         :
   foursquare       :
   github           : "shyaman"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         :
-  orcid            : 
+  linkedin         : "shyaman-jayasundara"
+  orcid            : "https://orcid.org/0000-0003-0522-3353"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
