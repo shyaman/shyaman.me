@@ -1,6 +1,12 @@
 - title: "miRNAFinder: A comprehensive web resource for plant pre-microRNA classification"
   authors: "S. Lokuge, <strong>S. Jayasundara</strong>, P. Ihalagedara, D. Herath and I. Kahanda"
-  tags: In review
+  conf: "bioRxiv, p. 2021.06.30.450478, 2021"
+  doi: 10.1101/2021.06.30.450478
+
+- title: "Machine learning for plant microRNA prediction: A systematic review"
+  authors: "<strong>S. Jayasundara</strong>, S. Lokuge, P. Ihalagedara, and D. Herath"
+  conf: "arXiv, Jun. 2021"
+  link: http://arxiv.org/abs/2106.15159
 
 - title: "miRNAFinder: A pre-microRNA classifier for plants and analysis of feature impact"
   authors: "P. Ihalagedara, S. Lokuge, <strong>S. Jayasundara</strong>, D. Herath and I. Kahanda"
