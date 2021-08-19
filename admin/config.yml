@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: shyaman/shyaman.github.io # Path to your GitHub repository
   branch: dev # Branch to update (optional; defaults to master
 
 media_folder: "assets/img" # Media files will be stored in the repo under images/uploads
