@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: dev # Branch to update (optional; defaults to master
+
+media_folder: "assets/img" # Media files will be stored in the repo under images/uploads
+
+collections:
+- label: "Main site contents"
+  name: content
+  editor:
+    preview: false
+  files:
+    - label: "Education"
+      name: edu
+      file: "_data/education.yml"
+      fields:
+        - label: "Entries"
+          label_singular: "Entry"
+          name: eduEntry
+          widget: list
+          fields:
+            - {label: "Venue", name: venue, widget: string}
+            - {label: achievement, name: achievement, widget: string}
+            - {label: description, name: description, widget: string}
+            - {label: duration, name: duration, widget: string}
