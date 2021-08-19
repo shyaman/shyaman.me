@@ -20,7 +20,7 @@ collections:
           name: eduEntry
           widget: list
           fields:
-            - {label: "Venue", name: venue, widget: string}
-            - {label: achievement, name: achievement, widget: string}
-            - {label: description, name: description, widget: string}
-            - {label: duration, name: duration, widget: string}
+            - {label: VenueS, name: venue, widget: string}
+            - {label: Achievement, name: achievement, widget: string}
+            - {label: Description, name: description, widget: string}
+            - {label: Duration, name: duration, widget: string}
