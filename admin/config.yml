@@ -25,7 +25,7 @@ collections:
           fields:
             - {label: Venue, name: venue, widget: string}
             - {label: Achievement, name: achievement, widget: string}
-            - {label: Description, name: description, widget: string}
+            - {label: Description, name: description, widget: string, required: false}
             - {label: Duration, name: duration, widget: string}
     - label: "Experience"
       name: experience
