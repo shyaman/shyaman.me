@@ -16,7 +16,7 @@ collections:
   files:
     - label: "Education"
       name: edu
-      file: "_data/education2.yml"
+      file: "_data/education.yml"
       fields:
         - label: "Edu Entries"
           label_singular: "Edu Entry"
@@ -25,8 +25,8 @@ collections:
           fields:
             - {label: Venue, name: venue, widget: string}
             - {label: Achievement, name: achievement, widget: string}
-            - {label: Description, name: description, widget: string, required: false}
             - {label: Duration, name: duration, widget: string}
+            - {label: Description, name: description, widget: string, required: false}
     - label: "Experience"
       name: experience
       file: "_data/experience.yml"
@@ -40,4 +40,4 @@ collections:
             - {label: Duration, name: duration, widget: string}
             - {label: Venue, name: venue, widget: string}
             - {label: Supervisor, name: supervisor, widget: string}
-            - {label: Description, name: description, widget: string}
+            - {label: Description, name: description, widget: string, required: false}
