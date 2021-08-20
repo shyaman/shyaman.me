@@ -3,3 +3,11 @@ exp:
     duration: 2020-2021
     venue: home
     supervisor: asdfadf
+    description: Next-Generation Sequencing(NGS) methods like Illumina have made it
+      possible to sequence DNAs with high throughput at an affordable cost. The
+      total DNA of Eukaryotic is consists of the chloroplast, mitochondrial and
+      nuclear reads. Though many works have used chloroplast data, the remaining
+      mitochondrial and nuclear data have been left untouched. Thus we aimed to
+      utilize mitochondrial and nuclear data to identify species-level
+      differences among Strobilanthes species and to verify the results using
+      the chloroplast assemblies.
