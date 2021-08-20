@@ -18,26 +18,17 @@ collections:
       name: edu
       file: "_data/education.yml"
       fields:
-        - label: "Entries"
-          label_singular: "Entry"
-          name: eduEntry
-          widget: list
-          fields:
-            - {label: Venue, name: venue, widget: string}
-            - {label: Achievement, name: achievement, widget: string}
-            - {label: Description, name: description, widget: string}
-            - {label: Duration, name: duration, widget: string}
+        - {label: Venue, name: venue, widget: string}
+        - {label: Achievement, name: achievement, widget: string}
+        - {label: Description, name: description, widget: string}
+        - {label: Duration, name: duration, widget: string}
     - label: "Experience"
       name: experience
       file: "_data/experience.yml"
       fields:
-        - label: "Experiences"
-          label_singular: "Experience"
-          name: exp
-          widget: list
-          fields:
-            - {label: Title, name: title, widget: string}
-            - {label: Duration, name: duration, widget: string}
-            - {label: Venue, name: venue, widget: string}
-            - {label: Supervisor, name: supervisor, widget: string}
-            - {label: Description, name: description, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Duration, name: duration, widget: string}
+          - {label: Venue, name: venue, widget: string}
+          - {label: Supervisor, name: supervisor, widget: string}
+          - {label: Description, name: description, widget: string}
+            
