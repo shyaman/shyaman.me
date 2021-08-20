@@ -10,7 +10,7 @@ display_url: https://shyaman.me
 
 collections:
 - label: "Main site contents"
-  name: content
+  name: contents
   editor:
     preview: false
   files:
@@ -29,7 +29,7 @@ collections:
             - {label: Description, name: description, widget: string, required: false}
     - label: "Experience"
       name: experience
-      file: "_data/experience.yml"
+      file: "_data/experience2.yml"
       fields:
         - label: "Experiences"
           label_singular: "Experience"
