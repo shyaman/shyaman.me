@@ -3,15 +3,27 @@ exp:
     duration: Aug 2020 - Now
     venue: Agricultural Biotechnology Centre, University of Peradeniya
     supervisor: Professor Pradeepa Bandaranayake
-
   - title: Research Volunteer (Full-time)
     duration: Dec 2019 - Jan 2020
     venue: Agricultural Biotechnology Centre, University of Peradeniya
     supervisor: Professor Pradeepa Bandaranayake
-    description: "Next-Generation Sequencing(NGS) methods like Illumina have made it possible to sequence DNAs with high throughput at an affordable cost. The total DNA of Eukaryotic is consists of the chloroplast, mitochondrial and nuclear reads. Though many works have used chloroplast data, the remaining mitochondrial and nuclear data have been left untouched. Thus we aimed to utilize mitochondrial and nuclear data to identify species-level differences among Strobilanthes species and to verify the results using the chloroplast assemblies."
-
+    description: Next-Generation Sequencing(NGS) methods like Illumina have made it
+      possible to sequence DNAs with high throughput at an affordable cost. The
+      total DNA of Eukaryotic is consists of the chloroplast, mitochondrial and
+      nuclear reads. Though many works have used chloroplast data, the remaining
+      mitochondrial and nuclear data have been left untouched. Thus we aimed to
+      utilize mitochondrial and nuclear data to identify species-level
+      differences among cinnamon species.
   - title: Research Assistant (Internship)
     duration: Feb 2019 - July 2019
     venue: Montana State University, USA
     supervisor: Assistant Professor Indika Kahanda
-    description: "Research Domain Criteria (RDoC) is a novel framework introduced by the National Institute of Mental Health (NIMH) for describing mental illness. Since it is a fairly recent introduction, existing biomedical literature needs to be classified by RDoC for it to be effective. Considering that manual annotation of articles is highly resource-consuming, Machine Learning and Natural Language Processing techniques can be used to ease and automate this task. Therefore we employed those techniques to develop models for information retrieval and sentence extraction with RDoC."
+    description: Research Domain Criteria (RDoC) is a novel framework introduced by
+      the National Institute of Mental Health (NIMH) for describing mental
+      illness. Since it is a fairly recent introduction, existing biomedical
+      literature needs to be classified by RDoC for it to be effective.
+      Considering that manual annotation of articles is highly
+      resource-consuming, Machine Learning and Natural Language Processing
+      techniques can be used to ease and automate this task. Therefore we
+      employed those techniques to develop models for information retrieval and
+      sentence extraction with RDoC.
