@@ -1,8 +1,9 @@
-- venue: University of Peradeniya, Sri Lanka
-  achievement: B.Sc in Engineering (Honours)
-  description: "Specialized in Computer Engineering<br>First Class (GPA: 3.90 / 4.00)"
-  duration: Nov 2015 - July 2020
+eduEntry:
+  - venue: University of Peradeniya, Sri Lanka
+    achievement: B.Sc in Engineering (Honours)
+    description: "Specialized in Computer Engineering<br>First Class (GPA: 3.90 / 4.00)"
+    duration: Nov 2015 - July 2020
 
-- venue: St. Anne's College, Kurunegala, Sri Lanka
-  achievement: G.C.E. Advanced Level / G.C.E. Ordinary Level
-  duration: Jan 2006 - Dec 2014
+  - venue: St. Anne's College, Kurunegala, Sri Lanka
+    achievement: G.C.E. Advanced Level / G.C.E. Ordinary Level
+    duration: Jan 2006 - Dec 2014

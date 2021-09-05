@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: shyaman/shyaman.github.io # Path to your GitHub repository
+  branch: master # Branch to update (optional; defaults to master
+
+media_folder: "assets/img" # Media files will be stored in the repo under images/uploads
+
+site_url: https://shyaman.me
+display_url: https://shyaman.me
+
+collections:
+- label: "My info"
+  name: myinfo
+  editor:
+    preview: false
+  files:
+    - label: "Info"
+      name: info
+      editor:
+        preview: false
+      file: "_config.yml"
+      fields:
+        - {label: Email, name: email, widget: string}
+        - {label: "CV link", name: cv, widget: string}
+        - {label: Linkedin, name: linkedin, widget: string}
+        - {label: Orcid, name: orcid, widget: string}
+        - {label: Flickr, name: flickr, widget: string}
+        - {label: Github, name: github, widget: string}
+        - {label: updateddate, name: updateddate, widget: string}
+        - {label: "Current Title", name: currentTitle, widget: string}
+        - {label: Bio, name: bio, widget: text}
+- label: "Main site contents"
+  name: contents
+  editor:
+    preview: false
+  files:
+    - label: "Experience"
+      name: experience
+      file: "_data/experience.yml"
+      fields:
+        - label: "Experiences"
+          label_singular: "Experience"
+          name: exp
+          widget: list
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Duration, name: duration, widget: string}
+            - {label: Venue, name: venue, widget: string}
+            - {label: Supervisor, name: supervisor, widget: string}
+            - {label: Description, name: description, widget: text, required: false}  
+    - label: "Education"
+      name: edu
+      file: "_data/education.yml"
+      fields:
+        - label: "Edu Entries"
+          label_singular: "Edu Entry"
+          name: eduEntry
+          widget: list
+          fields:
+            - {label: Venue, name: venue, widget: string}
+            - {label: Achievement, name: achievement, widget: string}
+            - {label: Duration, name: duration, widget: string}
+            - {label: Description, name: description, widget: text, required: false}
+    - label: "Publications"
+      name: pub
+      file: "_data/education.yml"
+      fields:
+        - label: "Publications"
+          label_singular: "Publication"
+          name: pub
+          widget: list
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Authors, name: authors, widget: string}
+            - {label: Conference, name: conf, widget: string}
+            - {label: DOI, name: doi, widget: string, required: false}
+            - {label: Link, name: link, widget: string, required: false}
+

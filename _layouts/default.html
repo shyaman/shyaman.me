@@ -65,7 +65,7 @@
         <section id="experience" class="resume-section p-3 p-lg-5 d-flex align-items-center">
             <div class="w-100">
                 <h2 class="mb-5">Experience&nbsp;</h2>
-                {% for exp in site.data.experience %}
+                {% for exp in site.data.experience.exp %}
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
                         <h3 class="mb-0">{{ exp.title}}</h3>
@@ -83,7 +83,7 @@
             <div class="w-100">
                 <h2 class="mb-5">Education&nbsp;</h2>
 
-                {% for edu in site.data.education %}
+                {% for edu in site.data.education.eduEntry %}
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="resume-content">
                         <h3 class="mb-0">{{ edu.venue }}</h3>
@@ -101,7 +101,7 @@
             <div class="w-100">
                 <h2 class="mb-5">Publications&nbsp;</h2>
                 <ul class="list-unstyled mb-5" id="publications" style="color: rgb(47,50,52);">
-                    {% for pub in site.data.publications %}
+                    {% for pub in site.data.publications.pub %}
                     <li style="padding-bottom: 15px;">{{ pub.authors }}, "{{ pub.title }}"{% if pub.conf %}, {{ pub.conf
                         }}{% endif %}{% if pub.doi %}, doi: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{
                             pub.doi }}</a>{% endif %}. {% if pub.link %} <a href="{{ pub.link }}"
