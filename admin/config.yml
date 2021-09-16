@@ -62,7 +62,7 @@ collections:
             - {label: Description, name: description, widget: text, required: false}
     - label: "Publications"
       name: pub
-      file: "_data/education.yml"
+      file: "_data/publications.yml"
       fields:
         - label: "Publications"
           label_singular: "Publication"
