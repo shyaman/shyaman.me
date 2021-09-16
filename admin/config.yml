@@ -56,8 +56,8 @@ collections:
           name: eduEntry
           widget: list
           fields:
-            - {label: Venue, name: venue, widget: string}
             - {label: Achievement, name: achievement, widget: string}
+            - {label: Venue, name: venue, widget: string}
             - {label: Duration, name: duration, widget: string}
             - {label: Description, name: description, widget: text, required: false}
     - label: "Publications"
