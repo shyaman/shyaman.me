@@ -1,22 +1,25 @@
-email: contact@shyaman.me
-cv: https://drive.google.com/file/d/1UJJgbMi6DRAnnUzyjwFrOX_zkd7uT-GT/view?usp=sharing
-linkedin: https://www.linkedin.com/in/shyaman-jayasundara
-orcid: https://orcid.org/0000-0003-0522-3353
-youtube: https://www.youtube.com/channel/UChoPlHOdGXodB_2D2yNOf2w
-flickr: https://www.flickr.com/photos/shyaman321
-github: https://github.com/shyaman/
-currentTitle: 'Research assistant | Co-Founder <a href="https://www.fixyinnovations.com" target="_blank"> Fixy Innovations </a> | Computer Engineering Graduate'
-bio: "I am a data science enthusiastic who is having interests in Bioinformatics and Biomedical informatics. Apart from that, I love traveling and capturing memorable moments with my loved ones."
-repository: shyaman/shyaman.github.io
-url: https://shyaman.me
-timezone: Asia/Colombo
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-last-modified-at
+youtube: https://www.youtube.com/channel/UChoPlHOdGXodB_2D2yNOf2w
+email: contact@shyaman.me
+cv: https://drive.google.com/file/d/1UJJgbMi6DRAnnUzyjwFrOX_zkd7uT-GT/view?usp=sharing
+flickr: https://www.flickr.com/photos/shyaman321
+github: https://github.com/shyaman/
+bio: I am a data science enthusiastic who is having interests in Bioinformatics
+  and Biomedical informatics. Apart from that, I love traveling and capturing
+  memorable moments with my loved ones.
+repository: shyaman/shyaman.github.io
+url: https://shyaman.me
 defaults:
-  -
-    scope:
-      path: 'admin/**'
+  - scope:
+      path: admin/**
     values:
       sitemap: false
+timezone: Asia/Colombo
+linkedin: https://www.linkedin.com/in/shyaman-jayasundara
+orcid: https://orcid.org/0000-0003-0522-3353
+currentTitle: Research assistant | Co-Founder <a
+  href="https://www.fixyinnovations.com" target="_blank"> Fixy Innovations</a> |
+  Computer Engineering Graduate
