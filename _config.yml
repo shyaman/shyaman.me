@@ -1,7 +1,6 @@
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-last-modified-at
 youtube: https://www.youtube.com/channel/UChoPlHOdGXodB_2D2yNOf2w
 email: contact@shyaman.me
 cv: https://drive.google.com/file/d/1UJJgbMi6DRAnnUzyjwFrOX_zkd7uT-GT/view?usp=sharing
