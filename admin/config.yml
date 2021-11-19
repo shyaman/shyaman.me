@@ -74,4 +74,5 @@ collections:
             - {label: Conference, name: conf, widget: string}
             - {label: DOI, name: doi, widget: string, required: false}
             - {label: Link, name: link, widget: string, required: false}
+            - {label: Tags, name: tags, widget: string}
 
