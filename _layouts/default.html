@@ -112,7 +112,8 @@
                     <li style="padding-bottom: 15px;">{{ pub.authors }}, "{{ pub.title }}"{% if pub.conf %}, {{ pub.conf
                         }}{% endif %}{% if pub.doi %}, doi: <a href="https://doi.org/{{ pub.doi }}" target="_blank">{{
                             pub.doi }}</a>{% endif %}. {% if pub.link %} <a href="{{ pub.link }}"
-                            target="_blank">{{pub.link}}</a>{% endif %}{% if pub.tags %} [{{ pub.tags }}]{% endif %}
+                            target="_blank">{{pub.link}}</a>{% endif %}{% if pub.tags and pub.tags != "" %} [{{ pub.tags
+                        }}]{% endif %}
                     </li>
                     {% endfor %}
                 </ul>
