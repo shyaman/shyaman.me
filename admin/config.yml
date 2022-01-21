@@ -26,6 +26,9 @@ collections:
         - {label: Orcid, name: orcid, widget: string}
         - {label: Flickr, name: flickr, widget: string}
         - {label: Github, name: github, widget: string}
+        - {label: Facebook, name: facebook, widget: string}
+        - {label: Twitter, name: twitter, widget: string}
+        - {label: Instagram, name: instagram, widget: string}
         - {label: "Current Title", name: currentTitle, widget: string}
         - {label: Bio, name: bio, widget: text}
 - label: "Main site contents"
