@@ -2,14 +2,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 youtube: https://www.youtube.com/channel/UChoPlHOdGXodB_2D2yNOf2w
-email: contact@shyaman.me
-cv: https://drive.google.com/file/d/1UJJgbMi6DRAnnUzyjwFrOX_zkd7uT-GT/view?usp=sharing
 flickr: https://www.flickr.com/photos/shyaman321
 github: https://github.com/shyaman/
 facebook: http://facebook.com/shyaman.madhawa/
 twitter: http://twitter.com/shyaman_madhawa
 instagram: http://instagram.com/shyaman_/
 pinterest: https://www.pinterest.com/shyaman_j/
+currentTitle: B.Sc. Eng (Hons), AMIESL | Research assistant <a
+  href="http://agri.pdn.ac.lk/agbc/" target="_blank">AgBC</a> | Co-Founder <a
+  href="https://www.fixyinnovations.com" target="_blank"> Fixy Innovations</a>
 bio: I am a data science enthusiastic who is having interests in Bioinformatics
   and Biomedical informatics. Apart from that, I love traveling and capturing
   memorable moments with my loved ones.
@@ -20,7 +21,10 @@ defaults:
       path: admin/**
     values:
       sitemap: false
+cv: https://drive.google.com/file/d/1UJJgbMi6DRAnnUzyjwFrOX_zkd7uT-GT/view?usp=sharing
+twitter: https://twitter.com/shyaman_madhawa
+instagram: https://www.instagram.com/__shyaman__/
 timezone: Asia/Colombo
+email: contact@shyaman.me
 linkedin: https://www.linkedin.com/in/shyaman-jayasundara
 orcid: https://orcid.org/0000-0003-0522-3353
-currentTitle: B.Sc. Eng (Hons), AMIESL | Research assistant <a href="http://agri.pdn.ac.lk/agbc/" target="_blank">AgBC</a> | Co-Founder <a href="https://www.fixyinnovations.com" target="_blank"> Fixy Innovations</a>
