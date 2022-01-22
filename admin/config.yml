@@ -30,6 +30,7 @@ collections:
         - {label: Twitter, name: twitter, widget: string}
         - {label: Instagram, name: instagram, widget: string}
         - {label: Pinterest, name: pinterest, widget: string}
+        - {label: Youtube, name: youtube, widget: string}
         - {label: "Current Title", name: currentTitle, widget: string}
         - {label: Bio, name: bio, widget: text}
 - label: "Main site contents"
