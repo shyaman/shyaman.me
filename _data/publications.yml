@@ -1,10 +1,10 @@
 pub:
   - title: "miRNAFinder: A comprehensive web resource for plant pre-microRNA
       classification"
-    authors: S. Lokuge, <strong>S. Jayasundara</strong>, P. Ihalagedara, D. Herath
-      and I. Kahanda
-    conf: bioRxiv, p. 2021.06.30.450478, 2021
-    doi: 10.1101/2021.06.30.450478
+    authors: S. Lokuge, <strong>S. Jayasundara</strong>, P. Ihalagedara,  I.
+      Kahanda, and D. Herath
+    conf: Biosystems, vol. 215–216, no. February, p. 104662, 2022
+    doi: 10.1016/j.biosystems.2022.104662
   - title: "Machine learning for plant microRNA prediction: A systematic review"
     authors: <strong>S. Jayasundara</strong>, S. Lokuge, P. Ihalagedara, and D. Herath
     conf: arXiv, Jun. 2021
