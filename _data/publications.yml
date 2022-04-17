@@ -1,4 +1,10 @@
 pub:
+  - title: Interpretable Student Performance Prediction Using Explainable Boosting
+      Machine for Multi-Class Classification
+    authors: <strong>S. Jayasundara</strong>, A. Indika and D. Herath
+    conf: <em>2022 2nd International Conference on Advanced Research in Computing
+      (ICARC)</em>, 2022, pp. 391-396
+    doi: 10.1109/ICARC54489.2022.9753867
   - title: "miRNAFinder: A comprehensive web resource for plant pre-microRNA
       classification"
     authors: S. Lokuge, <strong>S. Jayasundara</strong>, P. Ihalagedara,  I.
@@ -28,9 +34,3 @@ pub:
     conf: <em>2020 IEEE 14th International Conference on Semantic Computing
       (ICSC)</em>, San Diego, CA, USA, 2020, pp. 226-229
     doi: 10.1109/ICSC.2020.00047
-  - title: Interpretable Student Performance Prediction Using Explainable Boosting
-      Machine for Multi-Class Classification
-    authors: <strong>S. Jayasundara</strong>, A. Indika and D. Herath
-    conf: <em>2022 2nd International Conference on Advanced Research in Computing
-      (ICARC)</em>, 2022, pp. 391-396
-    doi: 10.1109/ICARC54489.2022.9753867
