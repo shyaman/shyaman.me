@@ -10,53 +10,54 @@ pub:
   - title: A unique single nucleotide polymorphism in Agouti Signalling Protein
       (ASIP) gene changes coat colour of Sri Lankan leopard (Panthera pardus
       kotiya) to dark black
-    authors: Sooriyabandara, M. G. C., A. U. Bandaranayake, H. A. B. M.
-      Hathurusinghe, <strong>S. M. Jayasundara</strong>, M. S. R. R. P.
+    authors: Sooriyabandara, M. G. C.*, A. U. Bandaranayake*, H. A. B. M.
+      Hathurusinghe*, <strong>S. M. Jayasundara</strong>*, M. S. R. R. P.
       Marasinghe, G. A. T. Prasad, V. P. M. K. Abeywardana, M. A. Pinidiya, R.
       M. R. Nilanthi, and P. C. G. Bandaranayake
     conf: Plos one, 18(7), e0269967, 2023
     doi: 10.1371/journal.pone.0269967
   - title: Genetic features of Sri Lankan elephant, Elephas maximus maximus Linnaeus
       revealed by high throughput sequencing of mitogenome and ddRAD-seq
-    authors: Sooriyabandara, M. G. C., <strong>J. M. S. M. Jayasundara</strong>, M.
-      S. L. R. P. Marasinghe, H. A. B. M. Hathurusinghe, A. U. Bandaranayake, K.
-      A. N. C. Jayawardane, R. M. R. Nilanthi, R. C. Rajapakse, and P. C. G.
-      Bandaranayake
+    authors: Sooriyabandara, M. G. C.*, <strong>J. M. S. M. Jayasundara</strong>*,
+      M. S. L. R. P. Marasinghe*, H. A. B. M. Hathurusinghe*, A. U.
+      Bandaranayake, K. A. N. C. Jayawardane, R. M. R. Nilanthi, R. C.
+      Rajapakse, and P. C. G. Bandaranayake
     conf: Plos one, 18(6), e0285572, 2023
     doi: 10.1371/journal.pone.0285572
   - title: Interpretable Student Performance Prediction Using Explainable Boosting
       Machine for Multi-Class Classification
-    authors: <strong>S. Jayasundara</strong>, A. Indika and D. Herath
+    authors: <strong>S. Jayasundara</strong>*, A. Indika* and D. Herath
     conf: <em>2022 2nd International Conference on Advanced Research in Computing
       (ICARC)</em>, 2022, pp. 391-396
     doi: 10.1109/ICARC54489.2022.9753867
   - title: "miRNAFinder: A comprehensive web resource for plant pre-microRNA
       classification"
-    authors: S. Lokuge, <strong>S. Jayasundara</strong>, P. Ihalagedara,  I.
+    authors: S. Lokuge*, <strong>S. Jayasundara</strong>*, P. Ihalagedara*,  I.
       Kahanda, and D. Herath
     conf: Biosystems, vol. 215–216, no. February, p. 104662, 2022
     doi: 10.1016/j.biosystems.2022.104662
     link: ""
   - title: "Machine learning for plant microRNA prediction: A systematic review"
-    authors: <strong>S. Jayasundara</strong>, S. Lokuge, P. Ihalagedara, and D. Herath
+    authors: <strong>S. Jayasundara</strong>*, S. Lokuge*, P. Ihalagedara*, and D.
+      Herath
     conf: arXiv, Jun. 2021
     link: http://arxiv.org/abs/2106.15159
   - title: "miRNAFinder: A pre-microRNA classifier for plants and analysis of
       feature impact"
-    authors: P. Ihalagedara, S. Lokuge, <strong>S. Jayasundara</strong>, D. Herath
-      and I. Kahanda
+    authors: P. Ihalagedara*, S. Lokuge*, <strong>S. Jayasundara</strong>*, D.
+      Herath and I. Kahanda
     conf: <em>2020 IEEE Conference on Computational Intelligence in Bioinformatics
       and Computational Biology (CIBCB)</em>, Viña del Mar, 2020, pp. 1-7
     doi: 10.1109/CIBCB48159.2020.9277723
   - title: "miRNAFinder: An accurate plant pre-microRNAclassifier with an analysis
       of feature impact"
-    authors: S. Lokuge, <strong>S. Jayasundara</strong>, P. Ihalagedara and D. Herath
+    authors: S. Lokuge*, <strong>S. Jayasundara</strong>*, P. Ihalagedara* and D. Herath
     conf: <em>Engineering Students Conference at Peradeniya</em>, Sri Lanka, 2020
     link: https://aces.ce.pdn.ac.lk/publications/proceedings/escape-2020
     tags: ""
   - title: "RDoCer: Information Retrieval and Sentence Extraction for Mental Health
       using Research Domain Criteria"
-    authors: D. Laden, <strong>S. Jayasundara</strong> and I. Kahanda
+    authors: D. Laden*, <strong>S. Jayasundara</strong>* and I. Kahanda
     conf: <em>2020 IEEE 14th International Conference on Semantic Computing
       (ICSC)</em>, San Diego, CA, USA, 2020, pp. 226-229
     doi: 10.1109/ICSC.2020.00047
