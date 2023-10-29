@@ -5,8 +5,25 @@ pub:
     authors: Bandaranayake, P.C., Naranpanawa, N., Chandrasekara, C.B., Samarakoon,
       H., Lokuge, <strong>S., Jayasundara, S.</strong>, Bandaranayake, A.U.,
       Pushpakumara, D.K.N.G. and Wijesundara, D.S.A.
-    conf: Plos one, 18(9), e0291763.
+    conf: Plos one, 18(9), e0291763, 2023
     doi: 10.1371/journal.pone.0291763
+  - title: A unique single nucleotide polymorphism in Agouti Signalling Protein
+      (ASIP) gene changes coat colour of Sri Lankan leopard (Panthera pardus
+      kotiya) to dark black
+    authors: Sooriyabandara, M. G. C., A. U. Bandaranayake, H. A. B. M.
+      Hathurusinghe, <strong>S. M. Jayasundara</strong>, M. S. R. R. P.
+      Marasinghe, G. A. T. Prasad, V. P. M. K. Abeywardana, M. A. Pinidiya, R.
+      M. R. Nilanthi, and P. C. G. Bandaranayake
+    conf: Plos one, 18(7), e0269967, 2023
+    doi: 10.1371/journal.pone.0269967
+  - title: Genetic features of Sri Lankan elephant, Elephas maximus maximus Linnaeus
+      revealed by high throughput sequencing of mitogenome and ddRAD-seq
+    authors: Sooriyabandara, M. G. C., <strong>J. M. S. M. Jayasundara</strong>, M.
+      S. L. R. P. Marasinghe, H. A. B. M. Hathurusinghe, A. U. Bandaranayake, K.
+      A. N. C. Jayawardane, R. M. R. Nilanthi, R. C. Rajapakse, and P. C. G.
+      Bandaranayake
+    conf: Plos one, 18(6), e0285572, 2023
+    doi: 10.1371/journal.pone.0285572
   - title: Interpretable Student Performance Prediction Using Explainable Boosting
       Machine for Multi-Class Classification
     authors: <strong>S. Jayasundara</strong>, A. Indika and D. Herath
