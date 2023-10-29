@@ -1,4 +1,12 @@
 pub:
+  - title: Chloroplast genome, nuclear ITS regions, mitogenome regions, and Skmer
+      analysis resolved the genetic relationship among Cinnamomum species in Sri
+      Lanka
+    authors: Bandaranayake, P.C., Naranpanawa, N., Chandrasekara, C.B., Samarakoon,
+      H., Lokuge, <strong>S., Jayasundara, S.</strong>, Bandaranayake, A.U.,
+      Pushpakumara, D.K.N.G. and Wijesundara, D.S.A.
+    conf: Plos one, 18(9), e0291763.
+    doi: 10.1371/journal.pone.0291763
   - title: Interpretable Student Performance Prediction Using Explainable Boosting
       Machine for Multi-Class Classification
     authors: <strong>S. Jayasundara</strong>, A. Indika and D. Herath
@@ -11,6 +19,7 @@ pub:
       Kahanda, and D. Herath
     conf: Biosystems, vol. 215–216, no. February, p. 104662, 2022
     doi: 10.1016/j.biosystems.2022.104662
+    link: ""
   - title: "Machine learning for plant microRNA prediction: A systematic review"
     authors: <strong>S. Jayasundara</strong>, S. Lokuge, P. Ihalagedara, and D. Herath
     conf: arXiv, Jun. 2021
