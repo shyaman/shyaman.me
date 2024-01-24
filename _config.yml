@@ -1,7 +1,9 @@
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+email: contact@shyaman.me
 linkedin: https://www.linkedin.com/in/shyamanj
+scholar: https://scholar.google.com/citations?user=LJn7bbAAAAAJ&hl=en
 flickr: https://www.flickr.com/photos/shyaman321
 github: https://github.com/shyaman/
 facebook: https://www.facebook.com/shyaman.madhawa/
@@ -19,9 +21,8 @@ defaults:
     values:
       sitemap: false
 cv: https://drive.google.com/file/d/1UJJgbMi6DRAnnUzyjwFrOX_zkd7uT-GT/view?usp=sharing
+orcid: https://orcid.org/0000-0003-0522-3353
 twitter: https://twitter.com/shyaman_madhawa
 instagram: https://www.instagram.com/shyaman_j/
 timezone: Asia/Colombo
-email: contact@shyaman.me
-orcid: https://orcid.org/0000-0003-0522-3353
 pinterest: https://www.pinterest.com/shyaman_j/
