@@ -23,6 +23,7 @@ collections:
         - {label: Email, name: email, widget: string}
         - {label: "CV link", name: cv, widget: string}
         - {label: Linkedin, name: linkedin, widget: string}
+        - {label: Scholar, name: scholar, widget: string}
         - {label: Orcid, name: orcid, widget: string}
         - {label: Flickr, name: flickr, widget: string}
         - {label: Github, name: github, widget: string}
