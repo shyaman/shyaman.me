@@ -2,14 +2,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 email: contact@shyaman.me
+cv: https://drive.google.com/file/d/17XYCQ3qN6mOXZ4e3YI1cslJaNHPc0Tzs/view?usp=sharing
 linkedin: https://www.linkedin.com/in/shyamanj
 scholar: https://scholar.google.com/citations?user=LJn7bbAAAAAJ&hl=en
+orcid: https://orcid.org/0000-0003-0522-3353
 flickr: https://www.flickr.com/photos/shyaman321
 github: https://github.com/shyaman/
 facebook: https://www.facebook.com/shyaman.madhawa/
+twitter: https://twitter.com/shyaman_madhawa
+instagram: https://www.instagram.com/shyaman_j/
 youtube: https://www.youtube.com/channel/UChoPlHOdGXodB_2D2yNOf2w
-currentTitle: PhD Student (Computer Science) and Graduate Research Assistant |
-  B.Sc. Eng (Hons)
 bio: I'm a passionate data science enthusiast with a keen interest in
   bioinformatics and computational biology. Beyond the world of data, I find joy
   in exploring new places and capturing precious moments with my loved ones.
@@ -20,9 +22,6 @@ defaults:
       path: admin/**
     values:
       sitemap: false
-cv: https://drive.google.com/file/d/17XYCQ3qN6mOXZ4e3YI1cslJaNHPc0Tzs/view?usp=sharing
-twitter: https://twitter.com/shyaman_madhawa
-instagram: https://www.instagram.com/shyaman_j/
 timezone: Asia/Colombo
-orcid: https://orcid.org/0000-0003-0522-3353
 pinterest: https://www.pinterest.com/shyaman_j/
+currentTitle: Co-op (Merck) | PhD Student (Computer Science) | B.Sc. Eng (Hons)
