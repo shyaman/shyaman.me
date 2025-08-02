@@ -83,7 +83,7 @@
                     <div class="resume-content">
                         <h3 class="mb-0">{{ exp.title}}</h3>
                         <div class="subheading"><span>{{ exp.venue }}</span></div>
-                        <div class="text-black-50 mb-3"><span>Supervisor:&nbsp;{{ exp.supervisor }}</span></div>
+                        {% if exp.supervisor %} <div class="text-black-50 mb-3"><span>Supervisor:&nbsp;{{ exp.supervisor }}</span></div> {% endif %}
                         {% if exp.description %} <p class="text-left">{{ exp.description }}</p>{% endif %}
                     </div>
                     <div class="resume-date text-md-right"><span class="text-primary">{{ exp.duration }}<br></span>
