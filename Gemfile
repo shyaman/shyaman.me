@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2.0"
+gem "jekyll", "~> 4.2"
 # Ruby 3.4 removed these from the default set of bundled libraries; Jekyll,
 # Liquid, and safe_yaml still `require` them unconditionally, so they must
 # be declared explicitly or the build fails with a LoadError.
