@@ -1,4 +1,16 @@
 pub:
+  - title: Canonical microRNA loss drives tumor development, implicating therapeutic
+      efficacy of enoxacin in angiosarcoma.
+    conf: RNA, 32(6), 812-826, 2026
+    authors: "Liu, B., Murphy, A., Benton, A., Gartenhaus, L., Budka, W., Bronzini,
+      J. M., Hartzler, S., Yates, M.E., Alzate, A.R., Janson, N.D.,
+      <strong>Jayasundara, S.</strong>, ... & Hanna, J. A. "
+  - title: "YAP1:: TFE3 mediates endothelial‐to‐mesenchymal plasticity in
+      epithelioid hemangioendothelioma"
+    authors: Murphy, A., Hartzler, S., Vargas Carranza, P. A.,<strong>Jayasundara,
+      S.</strong>, Yates, M. E., Janson, N. D., ... & Hanna, J. A.
+    conf: Molecular Oncology, 20(2), 493-510, 2026
+    doi: 10.1002/1878-0261.70112
   - title: Inflammation impacts androgen receptor signaling in basal prostate stem
       cells through interleukin 1 receptor antagonist
     authors: Cooper, P.O., Yang, J., Wang, H.H., Broman, M.M., <strong>Jayasundara,
