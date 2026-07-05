@@ -28,12 +28,13 @@ collections:
         - {label: Flickr, name: flickr, widget: string}
         - {label: Github, name: github, widget: string}
         - {label: Facebook, name: facebook, widget: string}
-        - {label: Twitter, name: twitter, widget: string}
+        - {label: Twitter, name: twitter_url, widget: string}
         - {label: Instagram, name: instagram, widget: string}
         - {label: Pinterest, name: pinterest, widget: string}
         - {label: Youtube, name: youtube, widget: string}
         - {label: "Current Title", name: currentTitle, widget: string}
         - {label: Bio, name: bio, widget: text}
+        - {label: "SEO Description", name: description, widget: text}
 - label: "Main site contents"
   name: contents
   editor:

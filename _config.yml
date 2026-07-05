@@ -9,15 +9,26 @@ orcid: https://orcid.org/0000-0003-0522-3353
 flickr: https://www.flickr.com/photos/shyaman321
 github: https://github.com/shyaman/
 facebook: https://www.facebook.com/shyaman.madhawa/
-twitter: https://twitter.com/shyaman_madhawa
+twitter_url: https://twitter.com/shyaman_madhawa
+twitter:
+  username: shyaman_madhawa
+  card: summary
 instagram: https://www.instagram.com/shyaman_j/
 youtube: https://www.youtube.com/channel/UChoPlHOdGXodB_2D2yNOf2w
 bio: I'm a passionate data science enthusiast with a keen interest in
   bioinformatics and computational biology. Beyond the world of data, I find joy
   in exploring new places and capturing precious moments with my loved ones.
+description: >-
+  Shyaman Jayasundara is a PhD student in Computer Science at Purdue University,
+  working on computational biology and bioinformatics.
+logo: /assets/img/apple-touch-icon.png
 repository: shyaman/shyaman.github.io
 url: https://www.shyaman.me
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/IMG_5006-Edit.jpg
   - scope:
       path: admin/**
     values:
