@@ -20,18 +20,15 @@
     <div class="container-fluid p-0">
         <section id="about" class="resume-section p-3 p-lg-5 d-flex align-items-center">
             <div class="w-100">
-                <h1 class="mb-0" style="letter-spacing: 4px;">Shyaman <span class="text-primary">Jayasundara</span></h1>
-                <div id="title-sub" class="subheading mb-5" style="letter-spacing: 1px;">
-                    <p style="display: inline-block;margin: 0px;">{{site.currentTitle}}</p>
+                <h1 class="mb-0">Shyaman <span class="text-primary">Jayasundara</span></h1>
+                <div id="title-sub" class="subheading mb-5">
+                    <p class="mb-0">{{site.currentTitle}}</p>
                     <p>E-mail&nbsp;<a href="mailto:{{site.email}}">{{site.email}}</a></p>
                     <div class="social-icons">
-                        <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in fa-sm"></i></a>
-                        <a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-google fa-sm"></i></a>
-                        <a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid fa-sm"></i></a>
-                        <a href="{{ site.github }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-sm"></i></a>
-                        <a href="{{ site.youtube }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube fa-sm"></i></a>
-                        <a href="{{ site.flickr }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-flickr fa-sm"></i></a>
-                        <a href="{{ site.twitter_url }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter fa-sm"></i></a>
+                        <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in fa-sm"></i></a>
+                        <a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="fas fa-graduation-cap fa-sm"></i></a>
+                        <a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID"><i class="fab fa-orcid fa-sm"></i></a>
+                        <a href="{{ site.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github fa-sm"></i></a>
                     </div>
                 </div>
                 <p class="lead mb-0">{{site.bio}}</p>
@@ -40,48 +37,62 @@
         <section id="experience" class="resume-section p-3 p-lg-5 d-flex align-items-center">
             <div class="w-100">
                 <h2 class="mb-5">Experience&nbsp;</h2>
-                {% for exp in site.data.experience.exp %}
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">{{ exp.title}}</h3>
-                        <div class="subheading"><span>{{ exp.venue }}</span></div>
-                        {% if exp.supervisor %} <div class="text-black-50 mb-3"><span>Supervisor:&nbsp;{{ exp.supervisor }}</span></div>{% endif %}
-                        {% if exp.description %} <p class="text-left">{{ exp.description }}</p>{% endif %}
+                <div class="timeline">
+                    {% for exp in site.data.experience.exp %}
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">{{ exp.title}}</h3>
+                            <div class="subheading"><span>{{ exp.venue }}</span></div>
+                            {% if exp.supervisor %} <div class="text-black-50 mb-3"><span>Supervisor:&nbsp;{{ exp.supervisor }}</span></div>{% endif %}
+                            {% if exp.description %} <p class="text-left">{{ exp.description }}</p>{% endif %}
+                        </div>
+                        <div class="resume-date text-md-right"><span class="text-primary">{{ exp.duration }}<br></span>
+                        </div>
                     </div>
-                    <div class="resume-date text-md-right"><span class="text-primary">{{ exp.duration }}<br></span>
-                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
             </div>
         </section>
         <section id="education" class="resume-section p-3 p-lg-5 d-flex align-items-center">
             <div class="w-100">
                 <h2 class="mb-5">Education&nbsp;</h2>
-
-                {% for edu in site.data.education.eduEntry %}
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">{{ edu.venue }}</h3>
-                        <div class="subheading mb-3"><span style="text-transform: none;">{{ edu.achievement}}<br></span>
+                <div class="timeline">
+                    {% for edu in site.data.education.eduEntry %}
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">{{ edu.venue }}</h3>
+                            <div class="subheading mb-3"><span style="text-transform: none;">{{ edu.achievement}}<br></span>
+                            </div>
+                            {% if edu.description %}<div><span>{{ edu.description }}</span></div>{% endif %}
                         </div>
-                        {% if edu.description %}<div><span>{{ edu.description }}</span></div><br>{% endif %}
+                        <div class="resume-date text-md-right"><span class="text-primary">{{ edu.duration }}<br></span>
+                        </div>
                     </div>
-                    <div class="resume-date text-md-right"><span class="text-primary">{{ edu.duration }}<br></span>
-                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
             </div>
         </section>
         <section id="publications" class="resume-section p-3 p-lg-5 d-flex align-items-center">
             <div class="w-100">
-                <h2 class="mb-5">Publications&nbsp;</h2>
-                <ul class="list-unstyled mb-5" id="publications" style="color: rgb(47,50,52);">
+                <h2 class="mb-2">Publications&nbsp;</h2>
+                <p class="pub-legend">* denotes equal contribution</p>
+                <ul class="list-unstyled mb-5">
                     {% for pub in site.data.publications.pub %}
-                    <li style="padding-bottom: 15px;">{{ pub.authors }}, "{{ pub.title }}"{% if pub.conf %}, {{ pub.conf
-                        }}{% endif %}{% if pub.doi %}, doi: <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener noreferrer">{{
-                            pub.doi }}</a>{% endif %}. {% if pub.link %} <a href="{{ pub.link }}"
-                            target="_blank" rel="noopener noreferrer">{{pub.link}}</a>{% endif %}{% if pub.tags and pub.tags != "" %} [{{ pub.tags
-                        }}]{% endif %}
+                    {% assign pub_link = pub.link | default: "" %}
+                    {% assign pub_tags = pub.tags | default: "" %}
+                    <li class="pub-item">
+                        <h3 class="pub-title">{{ pub.title }}</h3>
+                        <p class="pub-authors">{{ pub.authors }}</p>
+                        {% if pub.conf %}<p class="pub-venue">{{ pub.conf }}</p>{% endif %}
+                        {% if pub.doi or pub_link != "" or pub_tags != "" %}
+                        <div class="pub-links">
+                            {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank"
+                                rel="noopener noreferrer">doi: {{ pub.doi }}</a>{% endif %}
+                            {% if pub_link != "" %}{% assign link_label = pub_link | remove: "https://" | remove: "http://" | split: "/" | first %}<a
+                                href="{{ pub_link }}" target="_blank" rel="noopener noreferrer">{{ link_label }}</a>{% endif %}
+                            {% if pub_tags != "" %}<span class="pub-tag">{{ pub_tags }}</span>{% endif %}
+                        </div>
+                        {% endif %}
                     </li>
                     {% endfor %}
                 </ul>
