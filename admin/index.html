@@ -1,15 +1,20 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <title>Content Manager</title>
 </head>
 
 <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <!-- Decap CMS (successor to Netlify CMS), pinned with SRI so a compromised
+         CDN or package release can't silently swap the script that handles the
+         GitHub OAuth token. Bump the version and integrity hash together. -->
+    <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.14.1/dist/decap-cms.js"
+        integrity="sha384-K+E/B3QG3FJrtRXoyUjME4ilx71pYGyrvAVxYvd/p0zCPuXsc3eoEuSzUW3Ke63V"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
