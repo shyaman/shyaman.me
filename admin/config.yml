@@ -34,6 +34,18 @@ collections:
   editor:
     preview: false
   files:
+    - label: "News"
+      name: news
+      file: "_data/news.yml"
+      fields:
+        - label: "News items"
+          label_singular: "News item"
+          name: news
+          widget: list
+          fields:
+            - {label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true}
+            - {label: Text, name: text, widget: text}
+            - {label: Link, name: link, widget: string, required: false, hint: "Internal anchor like #publications, or a full URL"}
     - label: "Experience"
       name: experience
       file: "_data/experience.yml"

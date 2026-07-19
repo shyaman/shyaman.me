@@ -168,11 +168,13 @@ section.resume-section + section.resume-section {
     margin-left: 0.3rem;
 }
 
-.timeline .resume-item {
+.timeline .resume-item,
+.timeline .news-item {
     position: relative;
 }
 
-.timeline .resume-item::before {
+.timeline .resume-item::before,
+.timeline .news-item::before {
     content: "";
     position: absolute;
     top: 0.45rem;
@@ -185,8 +187,43 @@ section.resume-section + section.resume-section {
     box-shadow: 0 0 0 4px var(--bg);
 }
 
-.timeline .resume-item:last-child {
+.timeline .resume-item:last-child,
+.timeline .news-item:last-child {
     margin-bottom: 0 !important;
+}
+
+/* Compact single-line-ish entries for News, unlike the multi-field
+   Experience/Education items on the same rail. */
+.timeline-compact .news-item::before {
+    top: 0.35rem;
+}
+
+.news-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.15rem 0.6rem;
+}
+
+.news-date {
+    flex: 0 0 auto;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    min-width: 4.5rem;
+}
+
+.news-text {
+    flex: 1 1 16rem;
+    color: var(--text);
+}
+
+.news-link {
+    color: var(--accent);
+    font-weight: 700;
 }
 
 /* --------------------------------------------------------------------------
