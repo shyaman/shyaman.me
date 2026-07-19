@@ -3,3 +3,75 @@ news:
     text: New paper on Sp1's role linking CD46 to CD4 T cell metabolic fitness
       published in <em>Science Immunology</em>.
     link: "#publications"
+  - date: 2026-07-01
+    precision: year
+    text: New paper on canonical microRNA loss driving tumor development
+      published in <em>RNA</em>.
+    link: "#publications"
+  - date: 2026-07-01
+    precision: year
+    text: New paper on YAP1::TFE3-mediated endothelial-to-mesenchymal plasticity
+      published in <em>Molecular Oncology</em>.
+    link: "#publications"
+  - date: 2025-06-01
+    text: Started a Computational Biology Co-op at Merck in South San
+      Francisco, California.
+    link: "#experience"
+  - date: 2024-07-01
+    precision: year
+    text: New paper on inflammation and androgen receptor signaling in
+      prostate stem cells published in <em>Communications Biology</em>.
+    link: "#publications"
+  - date: 2023-07-01
+    precision: year
+    text: New paper resolving the genetic relationship among Sri Lankan
+      Cinnamomum species published in <em>PLOS ONE</em>.
+    link: "#publications"
+  - date: 2023-07-01
+    precision: year
+    text: New paper on the genetic basis of coat colour in the Sri Lankan
+      leopard published in <em>PLOS ONE</em>.
+    link: "#publications"
+  - date: 2023-07-01
+    precision: year
+    text: New paper on the genetics of the Sri Lankan elephant published in
+      <em>PLOS ONE</em>.
+    link: "#publications"
+  - date: 2022-08-01
+    text: Began Ph.D. studies in Computer Science at Purdue University,
+      advised by Prof. Majid Kazemian.
+    link: "#education"
+  - date: 2022-07-01
+    precision: year
+    text: Presented work on explainable student performance prediction at
+      ICARC 2022.
+    link: "#publications"
+  - date: 2022-07-01
+    precision: year
+    text: "miRNAFinder web resource for plant pre-microRNA classification
+      published in <em>Biosystems</em>."
+    link: "#publications"
+  - date: 2021-07-01
+    precision: year
+    text: Systematic review on machine learning for plant microRNA
+      prediction posted to arXiv.
+    link: "#publications"
+  - date: 2020-08-01
+    text: Joined the Agricultural Biotechnology Centre, University of
+      Peradeniya as a full-time Research Assistant.
+    link: "#experience"
+  - date: 2020-07-01
+    text: Graduated with a B.Sc. Engineering (Honours), First Class, from
+      the University of Peradeniya.
+    link: "#education"
+  - date: 2020-07-01
+    precision: year
+    text: Two conference papers on plant pre-microRNA classification
+      (miRNAFinder) presented at IEEE CIBCB and Engineering Students
+      Conference at Peradeniya.
+    link: "#publications"
+  - date: 2020-07-01
+    precision: year
+    text: "\"RDoCer\" paper on information retrieval for mental health
+      research presented at IEEE ICSC."
+    link: "#publications"

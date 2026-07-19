@@ -44,6 +44,7 @@ collections:
           widget: list
           fields:
             - {label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true}
+            - {label: "Date precision", name: precision, widget: select, options: [month, year], default: month, required: false, hint: "Choose 'year' if you don't know the exact month (e.g. backfilled publications)"}
             - {label: Text, name: text, widget: text}
             - {label: Link, name: link, widget: string, required: false, hint: "Internal anchor like #publications, or a full URL"}
     - label: "Experience"
