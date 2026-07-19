@@ -37,7 +37,11 @@
    -------------------------------------------------------------------------- */
 
 html {
-    scroll-behavior: smooth;
+    /* Smooth scrolling for anchor navigation is handled in site.js via
+       scrollIntoView, scoped to nav-link clicks only. A blanket
+       scroll-behavior: smooth here would also apply to mouse-wheel/
+       trackpad scrolling, which browsers animate in a way that feels
+       laggy and disconnected from the input. */
     /* keep anchor targets clear of the fixed top bar on mobile */
     scroll-padding-top: 4.5rem;
 }

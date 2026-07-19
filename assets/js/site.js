@@ -6,6 +6,30 @@
 (function () {
     'use strict';
 
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Smooth-scroll anchor navigation, scoped to these links only (not a
+    // blanket CSS scroll-behavior, which would also hijack mouse-wheel/
+    // trackpad scrolling and make it feel laggy).
+    Array.prototype.forEach.call(
+        document.querySelectorAll('a[href^="#"]'),
+        function (link) {
+            link.addEventListener('click', function (event) {
+                var id = link.getAttribute('href').slice(1);
+                var target = id ? document.getElementById(id) : document.body;
+                if (!target) {
+                    return;
+                }
+                event.preventDefault();
+                target.scrollIntoView({
+                    behavior: reduceMotion ? 'auto' : 'smooth',
+                    block: 'start',
+                });
+                history.pushState(null, '', link.getAttribute('href'));
+            });
+        }
+    );
+
     // Mobile nav: toggle the Bootstrap .collapse panel and close it after
     // a link is chosen.
     var toggler = document.querySelector('#sideNav .navbar-toggler');
@@ -65,7 +89,6 @@
     // Scroll-reveal: fade items up as they enter the viewport. The .reveal
     // class is added here (not in the markup) so content is never hidden
     // when JavaScript is unavailable.
-    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (!reduceMotion && 'IntersectionObserver' in window) {
         var items = document.querySelectorAll(
             '.resume-item, .pub-item, section.resume-section h2'
